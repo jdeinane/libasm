@@ -6,7 +6,7 @@
 #    By: jubaldo <jubaldo@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/04 15:26:07 by jubaldo           #+#    #+#              #
-#    Updated: 2025/05/04 17:09:51 by jubaldo          ###   ########.fr        #
+#    Updated: 2025/05/04 21:02:52 by jubaldo          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = libasm.a
 NASM = nasm
 NASMFLAGS = -f elf64
 
-SRCS = ft_strlen.s ft_strcpy.s ft_strcmp.s
+SRCS = ft_strlen.s ft_strcpy.s ft_strcmp.s ft_write.s
 OBJS = $(SRCS:.s=.o)
 
 CC = gcc

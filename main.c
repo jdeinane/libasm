@@ -6,7 +6,7 @@
 /*   By: jubaldo <jubaldo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 15:26:04 by jubaldo           #+#    #+#             */
-/*   Updated: 2025/05/04 20:39:45 by jubaldo          ###   ########.fr       */
+/*   Updated: 2025/05/04 21:07:10 by jubaldo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,9 @@ int main(void) {
 	printf("ft_strcmp: %d\n", ft_strcmp("abd", "abc"));
 	printf("strcmp: %d\n", strcmp("abd", "abc"));
 
+	printf("----- FT_WRITE TEST -----\n");
+	printf("ft_write: %zd\n", ft_write(1, "Hello World!\n", 13));
+	printf("write: %zd\n", write(1, "Hello World!\n", 13));
+	
 	return 0;
 }
