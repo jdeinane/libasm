@@ -6,7 +6,7 @@
 /*   By: jubaldo <jubaldo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 15:25:49 by jubaldo           #+#    #+#             */
-/*   Updated: 2025/05/04 15:55:24 by jubaldo          ###   ########.fr       */
+/*   Updated: 2025/05/04 16:00:41 by jubaldo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,10 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 size_t	ft_strlen(const char *str);
+char	*ft_strcpy(char *dest, const char *src);
 
 #endif
