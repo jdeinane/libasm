@@ -6,7 +6,7 @@
 /*   By: jubaldo <jubaldo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 15:26:04 by jubaldo           #+#    #+#             */
-/*   Updated: 2025/05/04 16:38:54 by jubaldo          ###   ########.fr       */
+/*   Updated: 2025/05/04 20:39:45 by jubaldo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,10 @@ int main(void) {
 	char dest[100] = "";
 	printf("ft_strcpy: %s\n", ft_strcpy(dest, "Hello!"));
 	printf("strcpy: %s\n", strcpy(dest, "Hello!"));
+
+	printf("----- FT_STRCMP TEST -----\n");
+	printf("ft_strcmp: %d\n", ft_strcmp("abd", "abc"));
+	printf("strcmp: %d\n", strcmp("abd", "abc"));
 
 	return 0;
 }
